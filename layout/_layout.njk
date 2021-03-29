@@ -27,6 +27,48 @@
       {% include '_partials/comments.njk' %}
     </div>
   </main>
+  <!-- APlayer start -->
+  <!-- Native Mode
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/js/music.js"></script>
+  -->
+
+  <!--MetingJS Mode-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <div class="aplayer" 
+  data-id="4928780612" 
+  data-server="netease" 
+  data-type="playlist" 
+  data-fixed="true" 
+  data-autoplay="true" 
+  data-order="random" 
+  data-volume="0.40" 
+  data-theme="#93251A"
+  data-preload="auto" >
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+  <meting-js
+    server="netease"
+    type="playlist"
+    id="60198">
+  </meting-js>
+  <!-- APlayer end -->
+
+  <!--TypeKit start-->
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'tzu7ura',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <!--TypeKit end-->
 
   <footer class="footer">
     <div class="footer-inner">

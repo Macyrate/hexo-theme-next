@@ -6,8 +6,9 @@
 
 .posts-expand .post-title {
   font-size: $font-size-largest;
-  font-weight: normal;
+  font-weight: bolder;
   margin: initial;
+  color: $cpc;
   word-wrap();
 
   if (hexo-config('post_edit.enable')) {
@@ -33,12 +34,12 @@
 
 .posts-expand .post-title-link {
   border-bottom: none;
-  color: var(--link-color);
+  color: $cpc;
   display: inline-block;
   position: relative;
 
   &::before {
-    background: var(--link-color);
+    background: $cpc;
     bottom: 0;
     content: '';
     height: 2px;
