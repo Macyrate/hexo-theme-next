@@ -208,13 +208,8 @@ chat:
 language_switcher: false
 
 footer:
-<<<<<<< HEAD
   # Specify the date when the site was setup. If not defined, current year will be used.
   since: 2016
-=======
-  # Specify the year when the site was setup. If not defined, current year will be used.
-  #since: 2020
->>>>>>> 841c4cad5d276095205badc9224e9146511d12be
 
   # Icon between year and copyright info.
   icon:
@@ -581,11 +576,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-<<<<<<< HEAD
   active: gitalk
-=======
-  active:
->>>>>>> 841c4cad5d276095205badc9224e9146511d12be
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.

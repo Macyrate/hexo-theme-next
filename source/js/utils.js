@@ -309,11 +309,7 @@ NexT.utils = {
 
   updateSidebarPosition: function() {
     NexT.utils.initSidebarDimension();
-<<<<<<< HEAD
     if (window.innerWidth < 900 || CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini') return;
-=======
-    if (window.innerWidth < 992 || CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini') return;
->>>>>>> 841c4cad5d276095205badc9224e9146511d12be
     // Expand sidebar on post detail page by default, when post has a toc.
     const hasTOC = document.querySelector('.post-toc');
     let display = CONFIG.page.sidebar;
