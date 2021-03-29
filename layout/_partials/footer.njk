@@ -77,7 +77,11 @@
 {%- if theme.footer.powered %}
   <div class="powered-by">
     {%- set next_site = 'https://theme-next.js.org' if theme.scheme === 'Gemini' else 'https://theme-next.js.org/' + theme.scheme | lower + '/' %}
+<<<<<<< HEAD
     {{- __('footer.powered', next_url('https://thwiki.cc/%E5%8D%9A%E4%B8%BD%E7%81%B5%E6%A2%A6', '博丽大结界', {class: 'theme-link'})) }}
+=======
+    {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'}) + ' & ' + next_url(next_site, 'NexT.' + theme.scheme, {class: 'theme-link'})) }}
+>>>>>>> 841c4cad5d276095205badc9224e9146511d12be
   </div>
 {%- endif %}
 

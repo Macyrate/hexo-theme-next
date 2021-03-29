@@ -208,8 +208,13 @@ chat:
 language_switcher: false
 
 footer:
+<<<<<<< HEAD
   # Specify the date when the site was setup. If not defined, current year will be used.
   since: 2016
+=======
+  # Specify the year when the site was setup. If not defined, current year will be used.
+  #since: 2020
+>>>>>>> 841c4cad5d276095205badc9224e9146511d12be
 
   # Icon between year and copyright info.
   icon:
@@ -576,7 +581,11 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
+<<<<<<< HEAD
   active: gitalk
+=======
+  active:
+>>>>>>> 841c4cad5d276095205badc9224e9146511d12be
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -635,6 +644,20 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language: zh-CN
+
+# Utterances
+# For more information: https://utteranc.es
+utterances:
+  enable: false
+  repo: # Github repository name
+  # Available values: pathname | url | title | og:title
+  issue_term: pathname
+  # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
+  theme: github-light
+
+# Isso
+# For more information: https://posativ.org/isso/
+isso: # <data_isso>
 
 # Utterances
 # For more information: https://utteranc.es
