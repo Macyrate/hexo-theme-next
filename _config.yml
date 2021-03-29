@@ -650,20 +650,6 @@ utterances:
 # For more information: https://posativ.org/isso/
 isso: # <data_isso>
 
-# Utterances
-# For more information: https://utteranc.es
-utterances:
-  enable: false
-  repo: # Github repository name
-  # Available values: pathname | url | title | og:title
-  issue_term: pathname
-  # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
-  theme: github-light
-
-# Isso
-# For more information: https://posativ.org/isso/
-isso: # <data_isso>
-
 
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
@@ -883,10 +869,6 @@ vendors:
 
   # In the following settings, you can specify the CDN link for each plugin.
   # If left blank, the default CDN provider set by `plugins` option will be used.
-
-  # Anime.js
-  # For more information: https://animejs.com
-  anime:
 
   # Font Awesome
   # For more information: https://fontawesome.com
