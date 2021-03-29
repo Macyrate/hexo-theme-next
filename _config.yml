@@ -526,7 +526,7 @@ pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
-fancybox: false
+fancybox: true
 
 # A JavaScript library for zooming images like Medium.
 # Warning: Do not enable both `fancybox` and `mediumzoom`.
@@ -912,8 +912,8 @@ vendors:
   disqusjs_css:
 
   # Gitalk
-  gitalk_js: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.1/dist/gitalk.min.js
-  gitalk_css: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.1/dist/gitalk.css
+  gitalk_js: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.2/dist/gitalk.min.js
+  gitalk_css: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.2/dist/gitalk.css
 
   # Firebase
   firebase_app:
