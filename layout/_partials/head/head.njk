@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 <meta name="generator" content="Hexo {{ hexo_version }}">
 
@@ -48,9 +48,10 @@
   {{ next_vendors('fancybox_css') }}
 {%- endif %}
 
-{%- if theme.nprogress.enable %}
-  {{ next_vendors('nprogress_css') }}
-  {{ next_vendors('nprogress_js') }}
+{%- if theme.pace.enable %}
+  {{ next_vendors('pace_css') }}
+  {{ next_vendors('pace_js') }}
 {%- endif %}
 
 {{ next_data('main', next_config()) }}
+{{- next_js('config.js') }}

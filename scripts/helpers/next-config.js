@@ -19,11 +19,11 @@ hexo.extend.helper.register('next_config', function() {
     sidebar   : theme.sidebar,
     copycode  : theme.codeblock.copy_button.enable,
     bookmark  : theme.bookmark,
-    fancybox  : theme.fancybox,
     mediumzoom: theme.mediumzoom,
     lazyload  : theme.lazyload,
     pangu     : theme.pangu,
     comments  : theme.comments,
+    stickytabs: theme.tabs.sticky,
     motion    : theme.motion,
     prism     : config.prismjs.enable && !config.prismjs.preprocess,
     i18n      : {
