@@ -376,8 +376,8 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: routeros
-    dark: tomorrow-night
+    light: vs
+    dark: vs2015
   prism:
     enable: false
     light: prism
