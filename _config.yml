@@ -448,7 +448,7 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: source-han-serif-sc, serif;
+    family: Noto Serif SC
     size:
 
   # Font settings for site title (.site-title).
@@ -471,7 +471,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: ubuntu-mono, monospace;
+    family: Noto Sans Mono
 
 
 # ---------------------------------------------------------------
@@ -897,7 +897,7 @@ vendors:
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-  plugins: jsdelivr
+  plugins: cdnjs
   # Custom CDN URL
   # For example:
   # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
