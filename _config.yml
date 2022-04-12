@@ -361,6 +361,7 @@ text_align:
 mobile_layout_economy: false
 
 # Browser header panel color.
+# 有些地方直接写的$ake作为更暗的色，不是调的这个
 theme_color:
   light: "#93251A"
   dark: "#93251A"
