@@ -52,7 +52,7 @@ function getVendors({ name, alias, version, file, minified, local, custom }) {
     local,
     jsdelivr: `https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}`,
     unpkg   : `https://unpkg.com/${npm_name}@${version}/${npm_file}`,
-    cdnjs   : `https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}`,
+    cdnjs   : `https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}`,
     custom  : (custom || '').replace(/\$\{(.+?)\}/g, (match, $1) => value[$1])
   };
 }
