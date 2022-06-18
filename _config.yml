@@ -894,11 +894,11 @@ vendors:
   # The CDN provider of NexT internal scripts.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Warning: If you are using the latest master branch of NexT, please set `internal: local`
-  internal: local
+  internal: cdnjs
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-  plugins: custom
+  plugins: cdnjs
   # Custom CDN URL
   # For example:
   # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
@@ -908,7 +908,6 @@ vendors:
   # Gitalk
   gitalk_js: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.2/dist/gitalk.min.js
   gitalk_css: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.2/dist/gitalk.css
-  pjax: //lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.pjax/2.0.1/jquery.pjax.min.js
 
 # Assets
 # Accelerate delivery of static files using a CDN
