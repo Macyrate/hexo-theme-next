@@ -105,6 +105,7 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
   lab: /lab/ || fa fa-flask
+  aria: /aria/ || fa fa-cloud-arrow-down
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
