@@ -294,7 +294,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  #WeChat: /images/wechat_channel.png || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -624,6 +624,8 @@ changyan:
   enable: false
   appid:
   appkey:
+  # Show comments count
+  count: true
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -706,6 +708,13 @@ cloudflare_analytics:
 # Microsoft Clarity Analytics
 # See: https://clarity.microsoft.com/
 clarity_analytics: # <project_id>
+
+# Matomo Analytics
+# See: https://matomo.org/
+matomo:
+  enable: false
+  server_url: # https://www.example.com/
+  site_id: # <your site id>
 
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
