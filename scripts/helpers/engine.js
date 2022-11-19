@@ -46,6 +46,12 @@ hexo.extend.helper.register('next_vendors', function(name) {
   return `<script src="${url}"></script>`;
 });
 
+hexo.extend.helper.register('next_vendors_css', function(name) {
+  const { url, integrity } = this.theme.vendors[name];
+    if (integrity) return `<link rel="stylesheet" href="${url}" integrity="${integrity}" crossorigin="anonymous">`;
+    return `<link rel="stylesheet" href="${url}">`;
+});
+
 hexo.extend.helper.register('next_data', function(name, ...data) {
   const json = data.length === 1 ? data[0] : Object.assign({}, ...data);
   return `<script class="next-config" data-name="${name}" type="application/json">${
