@@ -57,7 +57,7 @@ favicon:
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
-custom_logo: https://s2.loli.net/2022/04/12/6X3BmpW7eu1i8Dn.png
+custom_logo: http://storage.live.com/items/3550ADEE9AFF19FD!99614:/6X3BmpW7eu1i8Dn.png?authkey=AIbyrqnS5z58phc
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/about/cclicenses/
@@ -144,7 +144,8 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://s2.loli.net/2022/10/07/2b3v51ryK7eHosD.jpg
+  url: http://storage.live.com/items/3550ADEE9AFF19FD!99449:/AiAvatar.png?authkey=AIbyrqnS5z58phc
+
   # If true, the avatar will be displayed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -285,7 +286,7 @@ reward_settings:
   comment: 写得还行？
 
 reward:
-  wechatpay: https://i.loli.net/2020/04/15/glvwN8eEY3MHiTS.png
+  wechatpay: http://storage.live.com/items/3550ADEE9AFF19FD!99615:/glvwN8eEY3MHiTS.png?authkey=AIbyrqnS5z58phc
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
