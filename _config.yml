@@ -915,11 +915,13 @@ vendors:
   # For example:
   # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
   # custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}
-  custom_cdn_url: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/${cdnjs_name}/${version}/${cdnjs_file}
+  # custom_cdn_url: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/${cdnjs_name}/${version}/${cdnjs_file}
+  custom_cdn_url: https://cdn.staticfile.org/${cdnjs_name}/${version}/${cdnjs_file}
+
 
   # Gitalk
-  gitalk_js: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.2/dist/gitalk.min.js
-  gitalk_css: //cdn.jsdelivr.net/gh/macyrate/gitalk@2.0.2/dist/gitalk.css
+  gitalk_js: //storage.live.com/items/3550ADEE9AFF19FD!99619:/gitalk.min.js?authkey=AIbyrqnS5z58phc
+  gitalk_css: //storage.live.com/items/3550ADEE9AFF19FD!99618:/gitalk.css?authkey=AIbyrqnS5z58phc
 
 # Assets
 # Accelerate delivery of static files using a CDN
