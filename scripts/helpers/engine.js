@@ -48,8 +48,8 @@ hexo.extend.helper.register('next_vendors', function(name) {
 
 hexo.extend.helper.register('next_vendors_css', function(name) {
   const { url, integrity } = this.theme.vendors[name];
-    if (integrity) return `<link rel="stylesheet" href="${url}" integrity="${integrity}" crossorigin="anonymous">`;
-    return `<link rel="stylesheet" href="${url}">`;
+  if (integrity) return `<link rel="stylesheet" href="${url}" integrity="${integrity}" crossorigin="anonymous">`;
+  return `<link rel="stylesheet" href="${url}">`;
 });
 
 hexo.extend.helper.register('next_data', function(name, ...data) {
