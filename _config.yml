@@ -189,7 +189,7 @@ links:
   #Title: http://example.com
   viseator: https://www.viseator.com/
   Lean: https://blog.llgzone.com/
-  JuShen巨神: http://jushen.xyz/
+  # JuShen巨神: http://jushen.xyz/
   Sukuna: http://sukunahust.com/
   充满魔力的土地下: http://touhoudog.net/
   博麗幻想書譜: https://kourindou.exblog.jp/
@@ -203,7 +203,7 @@ toc:
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
   # Maximum heading depth of generated toc.
   max_depth: 6
 
