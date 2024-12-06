@@ -57,7 +57,7 @@ favicon:
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
-custom_logo: http://storage.live.com/items/3550ADEE9AFF19FD!101908:/Banner.png?authkey=AIbyrqnS5z58phc
+custom_logo: https://images.hakurei.red/Banner.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/about/cclicenses/
@@ -144,7 +144,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: http://storage.live.com/items/3550ADEE9AFF19FD!99449:/AiAvatar.png?authkey=AIbyrqnS5z58phc
+  url: https://images.hakurei.red/AiAvatar.png
 
   # If true, the avatar will be displayed in circle.
   rounded: true
@@ -287,7 +287,7 @@ reward_settings:
   comment: 写得还行？
 
 reward:
-  wechatpay: http://storage.live.com/items/3550ADEE9AFF19FD!99615:/glvwN8eEY3MHiTS.png?authkey=AIbyrqnS5z58phc
+  wechatpay: https://images.hakurei.red/glvwN8eEY3MHiTS.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
