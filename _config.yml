@@ -920,96 +920,6 @@ tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
 
-# Gitter Support
-# For more information: https://gitter.im
-gitter:
-  enable: false
-  room:
-
-
-# ---------------------------------------------------------------
-# Tags Settings
-# See: https://theme-next.js.org/docs/tag-plugins/
-# ---------------------------------------------------------------
-
-# Note tag (bootstrap callout)
-note:
-  # Note tag style values:
-  #  - simple    bootstrap callout old alert style. Default.
-  #  - modern    bootstrap callout new (v2-v3) alert style.
-  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
-  #  - disabled  disable all CSS styles import of note tag.
-  style: modern
-  icons: false
-  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
-  # Offset also applied to label tag variables. This option can work with disabled note tag.
-  light_bg_offset: 0
-
-# Tabs tag
-tabs:
-  # Make the nav bar of tabs with long content stick to the top.
-  sticky: false
-  transition:
-    tabs: false
-    labels: true
-
-# PDF tag
-# NexT will try to load pdf files natively, if failed, pdf.js will be used.
-# So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
-# Dependencies: https://github.com/next-theme/theme-next-pdf
-pdf:
-  enable: false
-  # Default height
-  height: 500px
-
-# Mermaid tag
-mermaid:
-  enable: false
-  # Available themes: default | dark | forest | neutral
-  theme:
-    light: default
-    dark: dark
-
-
-# ---------------------------------------------------------------
-# Animation Settings
-# ---------------------------------------------------------------
-
-# Use Animate.css to animate everything.
-# For more information: https://animate.style
-motion:
-  enable: true
-  async: true
-  transition:
-    # All available transition variants: https://theme-next.js.org/animate/
-    post_block: fadeIn
-    post_header: fadeInDown
-    post_body: fadeInDown
-    coll_header: fadeInLeft
-    # Only for Pisces | Gemini.
-    sidebar: fadeInUp
-
-# Progress bar in the top during page loading.
-# For more information: https://github.com/CodeByZach/pace
-pace:
-  enable: false
-  # All available colors:
-  # black | blue | green | orange | pink | purple | red | silver | white | yellow
-  color: blue
-  # All available themes:
-  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
-  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
-
-# Canvas ribbon
-# For more information: https://github.com/hustcc/ribbon.js
-canvas_ribbon:
-  enable: true
-  size: 100 # The width of the ribbon
-  alpha: 0.2 # The transparency of the ribbon
-  zIndex: -1 # The display level of the ribbon
-
-
 # ---------------------------------------------------------------
 # CDN Settings
 # See: https://theme-next.js.org/docs/advanced-settings/vendors
@@ -1033,8 +943,8 @@ vendors:
 
 
   # Gitalk
-  gitalk_js: https://cdn.bootcdn.net/ajax/libs/gitalk/1.8.0/gitalk.min.js
-  gitalk_css: https://cdn.bootcdn.net/ajax/libs/gitalk/1.8.0/gitalk.min.css
+  gitalk_js: https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js
+  gitalk_css: https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.css
 
 # Assets
 # Accelerate delivery of static files using a CDN
