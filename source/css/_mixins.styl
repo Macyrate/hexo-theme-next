@@ -129,7 +129,7 @@ main-container() {
 
 sidebar-toggle-position($reverse) {
   $condition = ($sidebar-toggle-alignment == 'right') == $reverse;
-  $alignment = $condition ? 'left' : 'right';
+  $alignment = $condition ? 'right' : 'left';
   {$alignment}: $b2t-position-right;
   +tablet-mobile() {
     {$alignment}: $b2t-position-right-mobile;
@@ -142,7 +142,7 @@ sidebar-toggle() {
   opacity: $b2t-opacity;
   position: fixed;
   z-index: $zindex-3;
-  sidebar-toggle-position(true);
+  sidebar-toggle-position(false);
 
   &:hover {
     opacity: $b2t-opacity-hover;
