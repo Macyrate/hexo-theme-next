@@ -90,17 +90,14 @@
           {{ post.content }}
         {%- endif %}
       {% else %}
-        {{ post.content }}
+        {{- next_inject('postBodyStart') }}
+        {{- post.content }}
       {%- endif %}
     </div>
 
     {#####################}
     {### END POST BODY ###}
     {#####################}
-
-    {%- if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
-      {{ partial('_partials/post/post-related.njk') }}
-    {%- endif %}
 
     <footer class="post-footer">
       {%- if is_index %}
@@ -129,7 +126,7 @@
           </div>
         {%- endif %}
 
-        {{ partial('_partials/post/post-footer.njk', {}, {cache: theme.cache.enable}) }}
+        {{ partial('_partials/post/post-share.njk', {}, {cache: theme.cache.enable}) }}
 
         {%- if theme.post_navigation and (post.prev or post.next) %}
           {%- set prev = post.prev if theme.post_navigation === 'right' else post.next %}
@@ -138,14 +135,14 @@
             <div class="post-nav-item">
               {%- if prev %}
                 <a href="{{ url_for(prev.path) }}" rel="prev" title="{{ prev.title }}">
-                  <i class="fa fa-chevron-left"></i> {{ prev.title }}
+                  <i class="fa fa-angle-left"></i> {{ prev.title }}
                 </a>
               {%- endif %}
             </div>
             <div class="post-nav-item">
               {%- if next %}
                 <a href="{{ url_for(next.path) }}" rel="next" title="{{ next.title }}">
-                  {{ next.title }} <i class="fa fa-chevron-right"></i>
+                  {{ next.title }} <i class="fa fa-angle-right"></i>
                 </a>
               {%- endif %}
             </div>
