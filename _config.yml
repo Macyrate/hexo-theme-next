@@ -50,10 +50,10 @@ darkmode: true
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16.ico
-  medium: /images/favicon-32x32.ico
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: https://images.hakurei.red/favicon-16x16.ico
+  medium: https://images.hakurei.red/favicon-32x32.ico
+  apple_touch_icon: https://images.hakurei.red/VmI4h6RczwKMXfE.png
+  safari_pinned_tab: https://images.hakurei.red/VmI4h6RczwKMXfE.png
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
@@ -443,7 +443,7 @@ font:
   enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host: https://fonts.loli.net
+  host: https://fonts.font.im
 
   # Font options:
   # `external: true` will load this font family from `host` above.
