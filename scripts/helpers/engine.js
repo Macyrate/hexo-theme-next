@@ -67,7 +67,7 @@ hexo.extend.helper.register('next_pre', function() {
     local   : this.theme.js && parse(this.theme.js).hostname ? parse(this.theme.js).protocol + '//' + parse(this.theme.js).hostname : '',
     jsdelivr: 'https://cdn.jsdelivr.net',
     unpkg   : 'https://unpkg.com',
-    cdnjs   : 'https://mirrors.sustech.edu.cn/cdnjs',
+    cdnjs   : 'https://cdnjs.cloudflare.com',
     custom  : parse(custom_cdn_url || '').hostname
   };
   const h = enable ? host || 'https://fonts.googleapis.com' : '';
