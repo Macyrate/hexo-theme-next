@@ -19,8 +19,8 @@ if (hexo-config('follow_me')) {
 
       .social-link {
         border: 0;
-        display: inline-block;
-        text-align: center;
+        // Make the hit area continious
+        display: block;
 
         .icon {
           font-size: 1.75em;
@@ -36,12 +36,21 @@ if (hexo-config('follow_me')) {
         }
       }
 
+      span.social-link {
+        color: var(--link-color);
+
+        &:hover {
+          color: var(--link-hover-color);
+        }
+      }
+
       .social-item-img {
         display: none;
         left: 50%;
-        max-width: $post-reward-img-width;
+        max-width: $post-followme-img-width;
         position: absolute;
         transform: translate(-50%, 20px);
+        z-index: 1;
       }
     }
   }
