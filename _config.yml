@@ -14,7 +14,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -29,7 +29,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -43,11 +43,11 @@ scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
 # Light-Dark Mode
 lightdark:
-  enable: false
+  enable: true
   # Add @supports (color: light-dark(red, red)) check
   check_supports: true
 
@@ -649,14 +649,14 @@ canvas_ribbon:
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
-  style: tabs
+  style: buttons
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | livere | gitalk | utterances | isso
   active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any navs, here are some examples.
   nav:
     #disqus:
@@ -681,8 +681,8 @@ disqusjs:
   # For example:
   # api: https://disqus.skk.moe/disqus/
   api:
-  apikey: # Register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  apikey: QzNRHIyanR1MZgs2Uxy3f7UExQ4GeBaiOzaLZbqPZrppQIgX26a1rnOERg31q1U7 # Register new application from https://disqus.com/api/applications/
+  shortname: macyrate # See: https://disqus.com/admin/settings/general/
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
