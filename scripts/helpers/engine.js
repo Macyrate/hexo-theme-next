@@ -68,7 +68,7 @@ hexo.extend.helper.register('next_pre', function() {
     jsdelivr: 'https://cdn.jsdelivr.net',
     unpkg   : 'https://unpkg.com',
     cdnjs   : 'https://cdnjs.cloudflare.com',
-    custom  : parse(custom_cdn_url || '').hostname
+    custom  : custom_cdn_url && parse(custom_cdn_url).hostname ? parse(custom_cdn_url).protocol + '//' + parse(custom_cdn_url).hostname : ''
   };
   const h = enable ? host || 'https://fonts.googleapis.com' : '';
   const i = links[internal];
