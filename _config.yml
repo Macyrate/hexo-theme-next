@@ -465,7 +465,7 @@ font:
 
   # Global font settings used for all elements inside <body>.
   global:
-    external: true
+    external: false # Loaded by source/_data/head.njk; this font is unavailable on font.im.
     family: "LXGW WenKai Mono"
     size:
 
@@ -488,7 +488,7 @@ font:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: true
+    external: false
     family: "LXGW WenKai Mono"
 
 

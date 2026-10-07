@@ -3,7 +3,10 @@
 {%- endif %}
 
 {%- for name in js_vendors() %}
-  {{ next_vendors(name) }}
+  {# Fancybox loads after the first paint through third-party/fancybox.js. #}
+  {%- if name !== 'fancybox_js' %}
+    {{ next_vendors(name) }}
+  {%- endif %}
 {%- endfor %}
 
 {# Customize darkmode.js - Declaration #}
